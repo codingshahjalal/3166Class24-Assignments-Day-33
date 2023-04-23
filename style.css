@@ -123,9 +123,11 @@ img{
     padding: 15px 20px;
     background: #0d6efd;    
     color: #fff;
+    transition: all 0.3s ease;
 }
 .hero .hero-content a.default-btn:hover{
     color: #0d6efd;
+    background: #fff;
     
 }
 .hero .hero-content a.default-btn::after{
@@ -134,7 +136,7 @@ img{
 .hero-img{}
 .hero-img img {
 	border-radius: 400px 0px 500px 500px;
-	margin-left: 122px;
+	margin-left: 154px;
 	height: 517px;
 }
 /* Hero/Banner Section Styling End */
