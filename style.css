@@ -263,16 +263,16 @@ content: "";
     animation: playbtn 1.6s ease-out infinite;
 }
 .video-content .vicons::after{
-content: "";
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    border: 1px solid #fff;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    animation: playbtn 1.6s ease-out infinite;
-}
+    content: "";
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: 1px solid #fff;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        animation: playbtn 1.6s ease-out infinite;
+    }
 @keyframes playbtn{
     0%, 30%{
         transform: scale(0);
