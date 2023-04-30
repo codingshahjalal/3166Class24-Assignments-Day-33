@@ -254,6 +254,17 @@ img{
 .video-content .vicons::before{
 content: "";
     position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    animation: playbtn 1.6s ease-out infinite;
+}
+.video-content .vicons::after{
+content: "";
+    position: absolute;
     width: 80px;
     height: 80px;
     background: #fff;
